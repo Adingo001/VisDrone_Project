@@ -37,15 +37,15 @@
 
 ### 安装
 
-\\\ash
+
 pip install ultralytics gradio opencv-python
-\\\
+
 
 下载模型权重与 VisDrone 数据集（见下方链接），放置到项目目录。
 
 ### 运行
 
-\\\ash
+\\\
 # 训练
 python train.py
 
@@ -64,10 +64,12 @@ python app.py
 | detect.py | 目标检测推理 |
 | evaluate.py | 模型评估脚本 |
 | pp.py | Gradio Web 应用入口 |
-| un_all.py | 一键运行全流程 |
+| 
+un_all.py | 一键运行全流程 |
 | datasets/VisDrone/ | VisDrone 数据集目录 |
 | 	hesis_figures/ | 论文图表（PR曲线、混淆矩阵等） |
-| uns/ | 训练/检测输出结果 |
+| 
+uns/ | 训练/检测输出结果 |
 
 ## 📦 模型权重
 
