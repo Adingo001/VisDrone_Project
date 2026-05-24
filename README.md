@@ -43,9 +43,7 @@ pip install ultralytics gradio opencv-python
 
 下载模型权重与 VisDrone 数据集（见下方链接），放置到项目目录。
 
-### 运行
-
-\\\
+
 # 训练
 python train.py
 
