@@ -1,0 +1,35 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 模型权重
+*.pt
+
+# 数据集（太大，需从官网下载）
+datasets/
+
+# 视频文件
+*.mp4
+*.avi
+
+# 缓存文件
+*.cache
+
+# 运行输出
+runs/
+
+# 临时日志
+_train_err.txt
+_train_log.txt
+_train_log.*.txt
+cv2_check.txt
+env_check.txt
+video_path.txt
+
+# IDE
+.vscode/
+.idea/
+
+# Ultralytics 本地配置
+.ultralytics/settings.json
